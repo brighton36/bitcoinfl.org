@@ -1,0 +1,95 @@
+/*
+* Maverick Theme Documentation
+*/
+
+/* RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block; }
+body {
+	line-height: 1; }
+ol, ul {
+	list-style: none; }
+blockquote, q {
+	quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none; }
+table {
+	border-collapse: collapse;
+	border-spacing: 0; }
+
+body {
+	background: #f4f4f4;
+	font: 14px/21px "Lato", Helvetica, Arial, sans-serif;
+	color: #5b5b5b;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+/* #Typography
+================================================== */
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 48px; line-height: 52px; margin-bottom: 14px;}
+	h2 { font-size: 36px; line-height: 48px; margin-bottom: 10px; }
+	h3 { font-size: 30px; line-height: 42px; margin-bottom: 8px; }
+	h4 { font-size: 24px; line-height: 36px; margin-bottom: 4px; }
+	h5 { font-size: 18px; line-height: 30px; }
+	h6 { font-size: 14px; line-height: 21px; }
+
+	p { margin: 0 0 20px 0; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;	}
+
+	em, i { font-style: italic; }
+	strong, b { font-weight: 700;	}
+	small { font-size: 80%; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 150px 0; height: 0; }
+	
+	ul, ol { margin-bottom: 20px; }
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ul ol,
+	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ul ul li, ul ol li,
+	ol ol li, ol ul li { margin-bottom: 6px; }
+	li { line-height: 26px; margin-bottom: 10px; }
+	ul.large li { line-height: 26px; }
+	li p { line-height: 26px; }
+
+
+/* #Links
+================================================== */
+	a, a:visited { color: #2b2b2b; }
+	a:hover, a:focus { color: #3b3b3b; text-decoration: none; }
+	p a, p a:visited { line-height: inherit; }
+
+/* #Site Styles
+================================================== */
+
+/* Useful Tools */
+.text_center { text-align: center; }
+.left { float: left; }
+.right { float: right; }
+pre { display: inline-block; background: #fff; border: 1px solid #e1e1e1; padding: 4px 7px; }
+
+/* Hero CSS */
+.hero { background: #3b3b3b; margin: 0 0 100px 0; border-bottom: 15px solid #3498db; color: #fff; }
+.hero .span12, .hero h1, .hero p, .hero span { position: relative; z-index: 1; }
+.hero h1 { margin: 75px 0; font: 300 72px/72px "Lato"; }
+.hero p { font: 18px/30px "Lato"; }
+
+.tablecontents { border: 1px solid #e1e1e1; background: white; padding: 30px; font-size: 16px; margin-bottom: 150px; }
+
