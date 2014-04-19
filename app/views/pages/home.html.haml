@@ -1,0 +1,250 @@
+=content_for :page_title, 'Bitcoin Florida - The future of money, is coming to you.'
+-# Navigation
+%header
+  .container
+    .span12
+      -# Responsive Logo
+      #hidden_logo
+      %ul#nav
+        %li.current
+          %a{:href => "#hero"} Home
+        %li
+          %a{:href => "#tour"} Take A Tour
+        %li#logo
+        %li
+          %a{:href => "#testimonial"} Testimonials
+        %li
+          %a{:href => "#buynow"} Buy Now
+-# Navigation End
+-# Hero Content
+#hero
+  .container
+    .span12
+      .row
+        .hero_content.span7
+          -# Hero Content Text
+          %h1
+            Florida are you ready?
+            %br/
+            %b Bitcoin
+            is coming.
+          %br/
+          %p
+            Like postcards were to e-mail, Cash is to Bitcoin.
+            We're a group of technology enthusiasts with chapters near you. 
+            We love Florida, and we love Bitcoin.
+            %b And we want this community to grow!
+          -# Button Group
+          .btn-group
+            %button.btn.btn-huge $5
+            %button.btn.btn-huge Buy now
+        .span4.offset1
+          .phone.white
+            -# Responsive Slider
+            .rslides_container
+              %ul#slider.rslides
+                %li
+                  =image_tag 'slides/1.jpg', :alt => 'TODO'
+                %li
+                  =image_tag 'slides/2.jpg', :alt => 'TODO'
+-# Hero Content End
+-# Take a Tour Content
+#tour
+  -# Introduction Section
+  #introduction
+    .container
+      .span12.fadeIn
+        -# Introduction Heading
+        .page_heading
+          %h6 Introducing
+          %h1 Bitcoin. It's Cash-Money. On your phone.
+        #intro_back
+          .row
+            .span4
+              -# Introduction Class One
+              .intro_text.text_one
+                %h3 It's easy to use.
+                %p Maecenas pulvinar tincidunt quam, ac consequat odio semper eget. Aliquam vulputate justo ut nunc ullamcorper, non pellentesque lectus consequat.
+              -# Introduction Class Two
+              .intro_text.text_two
+                %h3 It's free to use. Just like cash.
+                %p Maecenas pulvinar tincidunt quam, ac consequat odio semper eget. Aliquam vulputate justo ut nunc ullamcorper, non pellentesque lectus consequat.
+            .span4
+              -# Introduction Phone Preview
+              .phone-small.black-sm
+                =image_tag 'slides/feature.jpg', :size => '245x427', 
+                  :class => 'phone-preview', :alt => 'TODO'
+            .span4
+              -# Introduction Class Three
+              .intro_text.text_three
+                %h3 It's your money. Ditch the middle-men!
+                %p Maecenas pulvinar tincidunt quam, ac consequat odio semper eget. Aliquam vulputate justo ut nunc ullamcorper, non pellentesque lectus consequat.
+          -# Introduction BG Effect and images
+          #cloud_btm
+            #small_cloud_btm
+            #big_cloud_btm
+          #small_cloud
+          #big_cloud
+          #plane_shadow
+          .icon-flight
+  -# Introduction Section End
+  -# Features Section
+  #feature
+    .container
+      .span12.fadeIn
+        -# Features Heading
+        .page_heading
+          %h6 Our amazing features
+          %h1 Bitcoin is amazing. Here's why.
+        .row.major_features
+          .span4
+            -# Thumbnail Class One
+            .thumbnail
+              =image_tag 'feature/thumb_1.png', :alt => 'TODO'
+              .caption
+                %h3 It's compatible with everything.
+                %p Donec pellentesque sem at turpis fringilla, et rhoncus felis cursus. Fusce orci erat, convallis at lectus vel, pretium fringilla nisi.
+          .span4
+            -# Thumbnail Class Two
+            .thumbnail
+              =image_tag 'feature/thumb_2.png', :alt => 'TODO'
+              .caption
+                %h3 It's self-regulated. No companies are needed.
+                %p Donec pellentesque sem at turpis fringilla, et rhoncus felis cursus. Fusce orci erat, convallis at lectus vel, pretium fringilla nisi.
+          .span4
+            .thumbnail
+              -# Thumbnail Class Three
+              =image_tag 'feature/thumb_3.png', :alt => 'TODO'
+              .caption
+                %h3 It's an International Revolution
+                %p Donec pellentesque sem at turpis fringilla, et rhoncus felis cursus. Fusce orci erat, convallis at lectus vel, pretium fringilla nisi.
+  -# Features Section End
+  -# Promo Video Section
+  #promo
+    -# Promo Video Heading
+    .page_heading
+      %h6 Still unsure? Here's a video promo.
+      %h1 Why you should use Maverick
+    .row
+      -# Video Base
+      #promo_base
+        #laptop
+          -# FancyBox Event Class
+          %a#play_btn.fancybox-media{:href => "https://www.youtube.com/watch?v=Um63OQz3bjo"}
+-# Promo Video Section End
+-# Testimonial Section
+#testimonial
+  .container
+    .span12.fadeIn
+      -# Testimonial Heading
+      .page_heading
+        %h6 We are loved all around the world!
+        %h1 Hear what our customers say about us!
+      -# Testimonial Quotes
+      #t_map_container.tab-container
+        .panel-container
+          -# Testimonial Quote One (Purple)
+          #testimony_1.quote
+            =image_tag "120x120.gif", :alt => 'todo', :class => 'img-circle'
+            %h5
+              %span John Doe
+              , CEO of johndoe.com
+            %h3 "Maverick has helped me start off my small business here in U.K.! I love the theme, would definetely recommend to others."
+          -# Testimonial Quote Two (Green)
+          #testimony_2.quote
+            =image_tag "120x120.gif", :alt => 'todo', :class => 'img-circle'
+            %h5
+              %span James Doe
+              , CEO of jamesdoe.net
+            %h3 "In hac habitasse platea dictumst. Suspendisse vitae velit vel lectus pharetra ullamcorper vel eros seorci."
+          -# Testimonial Quote Three (Turquoise)
+          #testimony_3.quote
+            =image_tag "120x120.gif", :alt => 'todo', :class => 'img-circle'
+            %h5
+              %span Carla Doe
+              , Marketing Manager at carla.com
+            %h3 "Fusce mollis orci adipiscing odio mattis, sed pharetra velit pharetra velit vel lectus. Duis vehicula nisi ut sem scelerisque sagittis."
+          -# Testimonial Quote Four (Orange)
+          #testimony_4.quote
+            =image_tag "120x120.gif", :alt => 'todo', :class => 'img-circle'
+            %h5
+              %span Steven Doe
+              , CEO of stevendoe.com
+            %h3 "In hac habitasse platea dictumst. Suspendisse vitae velit vel lectus pharetra ullamcorper vel eros seorci."
+          -# Testimonial Quote Five (Blue)
+          #testimony_5.quote
+            =image_tag "120x120.gif", :alt => 'todo', :class => 'img-circle'
+            %h5
+              %span Paul Doe
+              , Entrepenuer
+            %h3 "Maverick has helped me start off my small business here in India! I love the theme, would definetely recommend to others."
+          -# Testimonial Quote Six (Red)
+          #testimony_6.quote
+            =image_tag "120x120.gif", :alt => 'todo', :class => 'img-circle'
+            %h5
+              %span Brandon Doe
+              , CEO of brandondoe.net
+            %h3 "In hac habitasse platea dictumst. Suspendisse vitae velit vel lectus pharetra ullamcorper vel eros seorci."
+          -# Testimonial Quote Seven (Dark Green)
+          #testimony_7.quote
+            =image_tag "120x120.gif", :alt => 'todo', :class => 'img-circle'
+            %h5
+              %span Kimberly Doe
+              , CEO of kimdoe.com
+            %h3 "Fusce mollis orci adipiscing odio mattis, sed pharetra velit pharetra velit vel lectus. Duis vehicula nisi ut sem scelerisque sagittis."
+        -# Testimonial Quotes End
+        -# Testimonial Map Content (EasyTab.js)
+        .t_map
+          .location_container
+            -# Testimonial Quote Point One
+            %span#t_purple.location
+              %a{:href => "#testimony_1"}
+                %i.icon-location
+            -# Testimonial Quote Point Two
+            %span#t_green.location
+              %a{:href => "#testimony_2"}
+                %i.icon-location
+            -# Testimonial Quote Point Three
+            %span#t_turquoise.location
+              %a{:href => "#testimony_3"}
+                %i.icon-location
+            -# Testimonial Quote Point Four
+            %span#t_orange.location
+              %a{:href => "#testimony_4"}
+                %i.icon-location
+            -# Testimonial Quote Point Five
+            %span#t_blue.location
+              %a{:href => "#testimony_5"}
+                %i.icon-location
+            -# Testimonial Quote Point Six
+            %span#t_red.location
+              %a{:href => "#testimony_6"}
+                %i.icon-location
+            -# Testimonial Quote Point Seven
+            %span#t_dgreen.location
+              %a{:href => "#testimony_7"}
+                %i.icon-location
+        -# Testimonial Map Content End
+-# Testimonial Section End
+-# Buy Now Section
+#buynow
+  .container
+    .span12.fadeIn
+      -# Buy Now Heading
+      .page_heading
+        %h6 You've seen enough.
+        %h1 We know you're amazed. Buy it now.
+      .row
+        .span12
+          %ul
+            %li
+              -# Button Group
+              .btn-group
+                %button.btn.btn-huge $5
+                %button.btn.btn-huge Buy now
+            %li#spacing or
+            -# Badges
+            %li
+              %button.badge.apple &nbsp;
+            %li
+              %button.badge.android &nbsp;
