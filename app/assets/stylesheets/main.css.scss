@@ -157,7 +157,7 @@
 	}
 
 	.btn-group .btn-huge { 
-		padding: 20px 33px; 
+		padding: 12px 27px; 
 	}
 	.btn-group .btn-huge:last-child { 
 		padding: 20px 33px 20px 38px; 
@@ -339,9 +339,9 @@
 	
 	/* Logo */
 	#logo {
-		width: 266px;
+		width: 346px;
 		height: 99px;
-		padding: 0 50px;
+		padding: 0 10px;
 	}
 	
 	#hidden_logo { display: none; }
@@ -1059,3 +1059,8 @@
 		#laptop { height: 231px; }
 	 }
 	
+
+.row.major_features .thumbnail {
+  border: none;
+  -webkit-box-shadow: none;
+}

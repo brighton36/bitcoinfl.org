@@ -9,12 +9,12 @@
         %li.current
           %a{:href => "#hero"} Home
         %li
-          %a{:href => "#tour"} Take A Tour
+          %a{:href => "#tour"} Why Bitcoin?
         %li#logo
         %li
           %a{:href => "#testimonial"} Testimonials
         %li
-          %a{:href => "#buynow"} Buy Now
+          %a{:href => "#buynow"} Learn More
 -# Navigation End
 -# Hero Content
 #hero
@@ -30,23 +30,32 @@
             is coming.
           %br/
           %p
-            Like postcards were to e-mail, Cash is to Bitcoin.
-            We're a group of technology enthusiasts with chapters near you. 
+            We're a group of civic-minded technology enthusiasts, with a chapter near you. 
             We love Florida, and we love Bitcoin.
             %b And we want this community to grow!
           -# Button Group
           .btn-group
-            %button.btn.btn-huge $5
-            %button.btn.btn-huge Buy now
+            %button.btn.btn-huge
+              =image_tag 'bitcoin-logo-inverse-sm.jpg', :size => '22x29', 
+                :alt => 'Bitcoin Logo'
+            %button.btn.btn-huge Learn More
         .span4.offset1
           .phone.white
             -# Responsive Slider
             .rslides_container
               %ul#slider.rslides
                 %li
-                  =image_tag 'slides/1.jpg', :alt => 'TODO'
+                  =image_tag 'slides/from-miami-beach.jpg', 
+                    :size => '245x427',
+                    :alt => 'From Miami Beach'
                 %li
-                  =image_tag 'slides/2.jpg', :alt => 'TODO'
+                  =image_tag 'slides/to-tallahassee.jpg', 
+                    :size => '245x427',
+                    :alt => 'From Miami Beach'
+                %li
+                  =image_tag 'slides/floridians-are-getting-excited.jpg', 
+                    :size => '245x427',
+                    :alt => 'Floridians are getting excited!'
 -# Hero Content End
 -# Take a Tour Content
 #tour
@@ -67,13 +76,14 @@
                 %p Maecenas pulvinar tincidunt quam, ac consequat odio semper eget. Aliquam vulputate justo ut nunc ullamcorper, non pellentesque lectus consequat.
               -# Introduction Class Two
               .intro_text.text_two
-                %h3 It's free to use. Just like cash.
-                %p Maecenas pulvinar tincidunt quam, ac consequat odio semper eget. Aliquam vulputate justo ut nunc ullamcorper, non pellentesque lectus consequat.
+                %h3 No fees!
+                %p Watch out Amex, bitcoin is coming for you! When the banks make less it's your gain. Never pay a monthly, transaction, or startup fee again!
             .span4
               -# Introduction Phone Preview
               .phone-small.black-sm
-                =image_tag 'slides/feature.jpg', :size => '245x427', 
-                  :class => 'phone-preview', :alt => 'TODO'
+                =image_tag 'slides/like-email-was-to-postcards-phone.jpg', 
+                  :size => '245x427',
+                  :alt => 'Like E-mail was to postcards, Bitcoin is to Cash'
             .span4
               -# Introduction Class Three
               .intro_text.text_three
@@ -240,8 +250,10 @@
             %li
               -# Button Group
               .btn-group
-                %button.btn.btn-huge $5
-                %button.btn.btn-huge Buy now
+                %button.btn.btn-huge
+                  =image_tag 'bitcoin-logo-inverse-sm.jpg', :size => '22x29', 
+                    :alt => 'Bitcoin Logo'
+                %button.btn.btn-huge Learn More
             %li#spacing or
             -# Badges
             %li

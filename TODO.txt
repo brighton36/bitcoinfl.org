@@ -1,1 +1,3 @@
 * The front page Buy Now needs more space
+* Get ride of the magnifier lens code
+* Adjust the pop-up dimensions on the youtube video
