@@ -10,3 +10,7 @@
 //= require tinynav.min
 //= require jquery.fancybox-media
 //= require custom
+
+$(document).ready(function() {
+  $('.fancybox-learn-more').fancybox();
+});
