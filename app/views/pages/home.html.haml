@@ -269,9 +269,8 @@
     %p The best way to understand Bitcoin is to watch someone use it. We have people all over the states holding demonstrations, so come on out to a meeting near you, and get a personalized introduction!
     %select
       %option (I live in the county of...)
-      %option Broward
-      %option Miami-Dade
-      %option West Palm Beach
+      -each_county do |county|
+        %option=county.label
     %h3 2. Buy some bitcoins
     %p The easiest way to get Bitcoin is to setup your bank account for withdrawal on coinbase. Click the logo below to get started with a CoinBase account.
     %a(href="http://www.coinbase.com")

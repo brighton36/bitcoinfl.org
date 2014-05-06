@@ -32,7 +32,6 @@ end
 
 gem 'bootstrap-sass', '=2.3.2.1'
 gem 'haml'
-gem 'high_voltage'
 gem 'actionpack-page_caching'
 
 # Use ActiveModel has_secure_password

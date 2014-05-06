@@ -1,0 +1,15 @@
+counties:
+  - label: Broward County
+    url: http://www.meetup.com/Bitcoin-of-South-Florida/ 
+  - label: Duval County
+    url: http://www.meetup.com/Bitcoin-Market-of-Jacksonville/
+  - label: Hillsborough County
+    url: http://www.meetup.com/Bitcoin-Enthusiasts/
+  - label: Lee County
+    url: http://www.meetup.com/BitCoinersofSouthwestFlorida/
+  - label: Leon County
+    url: http://www.meetup.com/Bitcoin-Tallahassee/
+  - label: Sarasota County
+    url: http://www.meetup.com/Sarasota-Bitcoin-Meetup/
+  - label: Volusia County
+    url: http://www.meetup.com/Bitcoin-Daytona/
