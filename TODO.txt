@@ -1,4 +1,4 @@
 * The front page Buy Now needs more space
-* Get ride of the magnifier lens code
+* Get an analytics from josh
+* I think the width is weirdo on mobil devices
 * Adjust the pop-up dimensions on the youtube video
-* Use this video http://youtu.be/Gc2en3nHxA4

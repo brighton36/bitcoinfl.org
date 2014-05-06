@@ -1,0 +1,33 @@
+#learn_more_modal
+  %h4 1. See it in person
+  %p 
+    The best way to understand Bitcoin is to watch someone use it. We have 
+    people all over the states holding demonstrations, so come on out to a 
+    meeting near you, and get a personalized introduction!
+  %select#county_selector
+    %option(value='') (I live in the county of...)
+    - each_county do |county|
+      %option{:value => county.url}=county.label
+  %button#visit_meetup.btn.btn-small(style="display:none") Get a demo!
+  =image_tag 'spinner.gif', :size => '24x24', 
+    :id => 'visit_meetup_spinner', :style => 'display:none'
+
+  %h4 2. Buy some bitcoins
+  %p 
+    The easiest way to get Bitcoin is to setup your bank account for withdrawal 
+    on coinbase. Click the logo below to 
+    %a(href="http://www.coinbase.com") get started with a CoinBase account.
+
+  %h4 3. Get an app on your phone
+  %p 
+    We recommend transferring your new coins into a wallet on your phone. 
+    Blockchain.info's wallet is secure and easy. 
+    %a(href="http://www.blockchain.info") Sign up with your web-browser,
+    and download their app! Make sure to save your passwords somewhere secure!
+
+  %h4 Now start spending, and spread the word!
+  %p 
+    Bitcoin is a major phenonmenon, and a rising tide lifts all boats! By spending
+    bitcoin on vendors, settling debts amongst friends, and accepting 
+    Bitcoin for your goods and services, everyone wins. Let's make Florida a 
+    major hub for the new digital economy!

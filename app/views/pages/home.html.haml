@@ -142,7 +142,7 @@
       #promo_base
         #laptop
           -# FancyBox Event Class
-          %a#play_btn.fancybox-media{:href => "https://www.youtube.com/watch?v=Um63OQz3bjo"}
+          %a#play_btn.fancybox-media{:href => "http://youtu.be/Gc2en3nHxA4"}
 -# Promo Video Section End
 -# Testimonial Section
 #testimonial
@@ -263,19 +263,4 @@
                 %button.badge.apple &nbsp;
               %li
                 %button.badge.android &nbsp;
-%div(style="display:none")
-  #learn_more_modal
-    %h3 1. See it in person
-    %p The best way to understand Bitcoin is to watch someone use it. We have people all over the states holding demonstrations, so come on out to a meeting near you, and get a personalized introduction!
-    %select
-      %option (I live in the county of...)
-      -each_county do |county|
-        %option=county.label
-    %h3 2. Buy some bitcoins
-    %p The easiest way to get Bitcoin is to setup your bank account for withdrawal on coinbase. Click the logo below to get started with a CoinBase account.
-    %a(href="http://www.coinbase.com")
-      =image_tag 'coinbase-logo.png', :size => '220x80', :alt => 'Coinbase'
-    %h3 3. Get the app on your phone
-    %p We recommend transferring your new coins into a wallet on your phone. Blockchain.info's wallet is secure and wonderful. Sign up with your web-browser, and download their app! Make sure to save your passwords somewhere secure!
-    =image_tag 'blockchain-logo.jpg', :size => '220x80', :alt => 'Coinbase'
-    %h2 Now spread the word!
+%div(style="display:none")=render :partial => 'learn_more_modal'
