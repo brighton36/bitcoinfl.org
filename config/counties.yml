@@ -9,6 +9,8 @@ counties:
     url: http://www.meetup.com/BitCoinersofSouthwestFlorida/
   - label: Leon County
     url: http://www.meetup.com/Bitcoin-Tallahassee/
+  - label: Miami-Dade County
+    url: http://www.meetup.com/Miami-International-Bitcoin-Group/
   - label: Sarasota County
     url: http://www.meetup.com/Sarasota-Bitcoin-Meetup/
   - label: Volusia County
