@@ -14,9 +14,6 @@ $('#nav').tinyNav({
 	header: 'Navigation' // Writing any title with this option triggers the header
 });
 	  
-// Loupe.js
-$('.phone-preview').loupe();
-
 // Easytabs.js
 $("#t_map_container").easytabs({
 	animate: true,
